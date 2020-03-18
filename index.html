@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components</title>
+</head>
+<body>
+    <user-card 
+        name="Slavi Shtipkov" 
+        avatar="https://randomuser.me/api/portraits/men/1.jpg"
+    >
+        <div slot="email">slavi@shtipkov.com</div>
+        <div slot="phone">+359 896 765897</div>
+    </user-card>
+
+    <user-card 
+        name="Nikolay Shtipkov" 
+        avatar="https://randomuser.me/api/portraits/men/2.jpg"
+    >
+        <div slot="email">kolio@shtipkov.com</div>
+        <div slot="phone">+359 889 324111</div>
+    </user-card>
+
+    <script src="userCard.js"></script>
+</body>
+</html>
